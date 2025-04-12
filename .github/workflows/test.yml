@@ -153,5 +153,5 @@ jobs:
         with:
           fail_ci_if_error: true
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: anvil-rs/anvil
+          slug: anvil-rs/anvil-tera
           env_vars: OS,RUST
